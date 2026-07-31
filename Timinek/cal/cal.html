@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naptár</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="page">
+        <!-- Logo Header -->
+        <div class="main_logo " >
+            <img src="../logo.jpg" alt="Logo" class="img-fluid">
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-golden shadow-sm mb-4">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav w-100 nav-fill text-center fw-medium">
+                        <a class="nav-item nav-link" href="../arjegyzek/ar.html">Árjegyzék</a>
+                        <a class="nav-item nav-link" href="../gal/gal.html">Galéria</a>
+                        <a class="nav-item nav-link" href="../main.html">Main</a>
+                    </div>
+                </div>
+            </div>
+        </nav>  
+
+
+        <!-- ==================== 1. SLIDER: 2026-OS ÉV ==================== -->
+        <div class="calendar container my-4" id="section-2026">
+            <h2 class="h4 fw-bold text-center mb-3">2026-os Foglaltsági Naptár</h2>
+            <div id="carousel2026" class="carousel slide shadow-sm rounded border bg-white" data-bs-ride="false">
+                
+                <div class="carousel-inner p-3">
+                    
+                    <!-- 2026 JÚLIUS -->
+                    <div class="carousel-item" data-month="6" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 Július</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td class="szabads">5</td>
+                                    </tr>
+                                    <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td class="szabads">12</td></tr>
+                                    <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td class="szabads">19</td></tr>
+                                    <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td class="szabads">26</td></tr>
+                                    <tr>
+                                        <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2026 AUGUSZTUS -->
+                    <div class="carousel-item" data-month="7" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 Augusztus</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td class="szabads">2</td>
+                                    </tr>
+                                    <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td class="szabads">9</td></tr>
+                                    <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td class="szabads">16</td></tr>
+                                    <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td class="szabads">23</td></tr>
+                                    <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td class="szabads">30</td></tr>
+                                    <tr>
+                                        <td>31</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2026 SZEPTEMBER -->
+                    <div class="carousel-item" data-month="8" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 Szeptember</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td class="szabads">6</td>
+                                    </tr>
+                                    <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td class="szabads">13</td></tr>
+                                    <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td class="szabads">20</td></tr>
+                                    <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td class="szabads">27</td></tr>
+                                    <tr>
+                                        <td>28</td><td>29</td><td>30</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2026 OKTÓBER -->
+                    <div class="carousel-item" data-month="9" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 Október</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td class="szabads">4</td>
+                                    </tr>
+                                    <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td class="szabads">11</td></tr>
+                                    <tr><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td class="szabads">18</td></tr>
+                                    <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td class="szabads">25</td></tr>
+                                    <tr>
+                                        <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2026 NOVEMBER -->
+                    <div class="carousel-item" data-month="10" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 November</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="szabads">1</td>
+                                    </tr>
+                                    <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td class="szabads">8</td></tr>
+                                    <tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td class="szabads">15</td></tr>
+                                    <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td class="szabads">22</td></tr>
+                                    <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td class="szabads">29</td></tr>
+                                    <tr>
+                                        <td>30</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2026 DECEMBER -->
+                    <div class="carousel-item" data-month="11" data-year="2026">
+                        <h3 class="h5 fw-bold text-center mb-3">2026 December</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td class="szabads">6</td>
+                                    </tr>
+                                    <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td class="szabads">13</td></tr>
+                                    <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td class="szabads">20</td></tr>
+                                    <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td class="szabads">27</td></tr>
+                                    <tr>
+                                        <td>28</td><td>29</td><td>30</td><td>31</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Lapozó gombok a 2026-oshoz -->
+                <button class="carousel-control-prev btn btn-link" type="button" data-bs-target="#carousel2026" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Előző</span>
+                </button>
+                <button class="carousel-control-next btn btn-link" type="button" data-bs-target="#carousel2026" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Következő</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="taj">
+            <b>Színkódok jelentése:</b>
+            <b>Piros - Foglalt időpont</b>
+            <b>Kék - Szabadság</b>
+            <b>Színtelen - Foglalható időpont</b>
+        </div>
+        <!-- ==================== 2. SLIDER: 2027-ES ÉV ==================== -->
+        <div class="calendar container my-5" id="section-2027">
+            <h2 class="h4 fw-bold text-center mb-3">2027-es Foglaltsági Naptár</h2>
+            <div id="carousel2027" class="carousel slide shadow-sm rounded border bg-white" data-bs-ride="false">
+                
+                <div class="carousel-inner p-3">
+                    
+                    <!-- 2027 JANUÁR -->
+                    <div class="carousel-item" data-month="0" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Január</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td class="szabads">3</td>
+                                    </tr>
+                                    <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td class="szabads">10</td></tr>
+                                    <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td class="szabads">17</td></tr>
+                                    <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td class="szabads">24</td></tr>
+                                    <tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td class="szabads">31</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 FEBRUÁR -->
+                    <div class="carousel-item" data-month="1" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Február</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td class="szabads">7</td>
+                                    </tr>
+                                    <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td class="szabads">14</td></tr>
+                                    <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td class="szabads">21</td></tr>
+                                    <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td class="szabads">28</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 MÁRCIUS -->
+                    <div class="carousel-item" data-month="2" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Március</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td class="szabads">7</td>
+                                    </tr>
+                                    <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td class="szabads">14</td></tr>
+                                    <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td class="szabads">21</td></tr>
+                                    <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td class="szabads">28</td></tr>
+                                    <tr>
+                                        <td>29</td><td>30</td><td>31</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 ÁPRILIS -->
+                    <div class="carousel-item" data-month="3" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Április</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td class="szabads">4</td>
+                                    </tr>
+                                    <tr><td>5</td><td>6</td><td >7</td><td>8</td><td>9</td><td>10</td><td class="szabads">11</td></tr>
+                                    <tr><td>12</td><td>13</td><td >14</td><td>15</td><td>16</td><td>17</td><td class="szabads">18</td></tr>
+                                    <tr><td>19</td><td>20</td><td >21</td><td>22</td><td>23</td><td>24</td><td class="szabads">25</td></tr>
+                                    <tr>
+                                        <td>26</td><td>27</td><td >28</td><td>29</td><td>30</td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 MÁJUS -->
+                    <div class="carousel-item" data-month="4" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Május</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td class="szabads">2</td>
+                                    </tr>
+                                    <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td class="szabads">9</td></tr>
+                                    <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td class="szabads">16</td></tr>
+                                    <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td class="szabads">23</td></tr>
+                                    <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td class="szabads">30</td></tr>
+                                    <tr>
+                                        <td>31</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 JÚNIUS -->
+                    <div class="carousel-item" data-month="5" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Június</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td class="szabads">6</td>
+                                    </tr>
+                                    <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td class="szabads">13</td></tr>
+                                    <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td class="szabads">20</td></tr>
+                                    <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td class="szabads">27</td></tr>
+                                    <tr>
+                                        <td>28</td><td>29</td><td>30</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 JÚLIUS -->
+                    <div class="carousel-item" data-month="6" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Július</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td class="szabads">4</td>
+                                    </tr>
+                                    <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td class="szabads">11</td></tr>
+                                    <tr><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td class="szabads">18</td></tr>
+                                    <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td class="szabads">25</td></tr>
+                                    <tr>
+                                        <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 AUGUSZTUS -->
+                    <div class="carousel-item" data-month="7" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Augusztus</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="szabads">1</td>
+                                    </tr>
+                                    <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td class="szabads">8</td></tr>
+                                    <tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td class="szabads">15</td></tr>
+                                    <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td class="szabads">22</td></tr>
+                                    <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td class="szabads">29</td></tr>
+                                    <tr>
+                                        <td>30</td><td>31</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 SZEPTEMBER -->
+                    <div class="carousel-item" data-month="8" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Szeptember</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td class="szabads">5</td>
+                                    </tr>
+                                    <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td class="szabads">12</td></tr>
+                                    <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td class="szabads">19</td></tr>
+                                    <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td class="szabads">26</td></tr>
+                                    <tr>
+                                        <td>27</td><td>28</td><td>29</td><td>30</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 OKTÓBER -->
+                    <div class="carousel-item" data-month="9" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 Október</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td class="szabads">3</td>
+                                    </tr>
+                                    <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td class="szabads">10</td></tr>
+                                    <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td class="szabads">17</td></tr>
+                                    <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td class="szabads">24</td></tr>
+                                    <tr>
+                                        <td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td class="szabads">31</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 NOVEMBER -->
+                    <div class="carousel-item" data-month="10" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 November</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td class="szabads">7</td>
+                                    </tr>
+                                    <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td class="szabads">14</td></tr>
+                                    <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td class="szabads">21</td></tr>
+                                    <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td class="szabads">28</td></tr>
+                                    <tr>
+                                        <td>29</td><td>30</td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2027 DECEMBER -->
+                    <div class="carousel-item" data-month="11" data-year="2027">
+                        <h3 class="h5 fw-bold text-center mb-3">2027 December</h3>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table mb-0 text-center">
+                                <thead>
+                                    <tr class="text-muted small"><th>Hét</th><th>Ke</th><th>Sze</th><th>Csü</th><th>Pén</th><th>Szo</th><th>Vas</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="other-month"></td><td class="other-month"></td><td>1</td><td>2</td><td>3</td><td>4</td><td class="szabads">5</td>
+                                    </tr>
+                                    <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td class="szabads">12</td></tr>
+                                    <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td class="szabads">19</td></tr>
+                                    <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td class="szabads">26</td></tr>
+                                    <tr>
+                                        <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="other-month"></td><td class="other-month"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Lapozó gombok a 2027-eshez -->
+                <button class="carousel-control-prev btn btn-link" type="button" data-bs-target="#carousel2027" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Előző</span>
+                </button>
+                <button class="carousel-control-next btn btn-link" type="button" data-bs-target="#carousel2027" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Következő</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="taj">
+            <b>Színkódok jelentése:</b>
+            <b>Piros - Foglalt időpont</b>
+            <b>Kék - Szabadság</b>
+            <b>Színtelen - Foglalható időpont</b>
+        </div>
+
+        <h2>Tájékoztatás: Kisebb munkálatok esetén a helyszíni felmérést követően a vállalkozó belátása szerint a kivitelezés időpontja előrébb hozható.</h2>
+
+        <!-- Footer Information Block -->
+        <div class="footer ">
+            <p class="">Elérhetőségek:</p>
+            <p class="">Telefonszám: 06 30 836 2558</p>
+            <p class="">Email cím: hulvejattila@gmail.com</p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="cal.js"></script>
+</body>
+</html>
